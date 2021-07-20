@@ -54,11 +54,8 @@ $(".descripcion").click(function () {
     $("#pImg").text("Es un sistema web que consta de dos clientes uno para la administración y otro para los clientes que deseen hacer una recerva para utilizar cualquiera de las instalación ofrecidas por la empresa (ficticia). El cliente administrativo es utilizado por un encargado el cual puede realizar recervas y también le permite gestionar un bar (ficticio).");
 });
 $(".video").click(function () {
-    $("pImg").text("");
-    if (!agregar_elemento_video){
-        $("#pImg").append("<video src='./videos/proyectos/gloria gym/demo-gloria gym.mp4' controls loop autoplay'></video>");
-        agregar_elemento_video = true;
-    }
+    $("#pImg").text("");
+    $("#pImg").append("<video src='./videos/proyectos/gloria gym/demo-gloria gym.mp4' controls loop autoplay'></video>");
 });
 //sección studies
 //muestra el zoom de la imagen cuando esta enciama del elemento
