@@ -1,4 +1,4 @@
-agregar_elemento_video = false;
+﻿agregar_elemento_video = false;
 //sección menu
 var items = $(".nav .icon-menu + ul li a");
 var ul = $(".nav .icon-menu + ul"); 
@@ -41,7 +41,7 @@ $(".pPy").click(function () {
     $("#pImg").text("Librerías usadas: Thread, socket, Datetime, PyQt5, Json y Request.");
 });
 $(".pSql").click(function () { 
-    $("#pImg").text("Consultas para la realización de un ABM (SELECT, DELETE, UPDATE) y creación de procedimientos, funciones y triggers.");
+    $("#pImg").text("Consultas para la realización de un ABM (SELECT, DELETE, UPDATE), Vistas y creación de procedimientos, funciones y triggers.");
 });
 $(".pDj").click(function () { 
     $("#pImg").text("Plantillas, vistas, sitio administrativo, ORM con MySql.");
