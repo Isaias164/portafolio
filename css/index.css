@@ -139,6 +139,31 @@ video{
 #projects{
     margin-top: 4%;
 }
+#projects .scripts{
+    width: auto;
+    height: 200px;
+    display: grid;
+
+}
+#projects .scripts .datepy{
+    width: 40%;
+    height: 96%;
+    margin: 0% auto;
+    background-color: rgb(17, 16, 16);
+    border-radius: 10px;
+}
+#projects .scripts .datepy a{
+    text-decoration: none;
+    font-size: 500%;
+    font-weight: 900;
+    color: yellow;
+}
+#projects .scripts .datepy p{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 0% auto;
+}
 #projects #container-projects{
     display: grid;
 }
@@ -146,11 +171,10 @@ video{
     display: grid;
     grid-template-rows: repeat(3,1fr);
     justify-items: center;
-    /* border: 1px solid red; */
 }
 #projects .project1 > .img-main img{
-    width: 35%;
-    height: 95%;
+    width: 65%;
+    height: 65%;
     display: block;
     margin: 0% auto;
 }
@@ -178,7 +202,6 @@ video{
 }
 #projects .project1 > .options div>p{
     margin-top: 3%;
-    /* border: 1px solid red; */
     font-size: 1.3em;
     color: yellow;
     font-weight: 500;
@@ -507,6 +530,13 @@ video{
         font-size: 1em;
         font-weight: 700;
     }
+    #projects .scripts .datepy{
+        width: 50%;
+        height: 66%;
+    }
+    #projects .scripts .datepy a{
+        font-size: 150%;
+    }
     .skills > .my-skills{
         column-gap: 0.3em;
         row-gap: 2em;
@@ -702,6 +732,13 @@ video{
         font-size: 22px;
         line-height: 110%;
     }
+    #projects .scripts .datepy{
+        width: 70%;
+        height: 96%;
+    }
+    #projects .scripts .datepy a{
+        font-size: 350%;
+    }
     .studies-courses>div p{
         font-size: 20px;
     }
@@ -769,6 +806,10 @@ video{
     .logo .container div:last-child p{
         font-size: 48px;
         font-weight: 900;
+    }
+    #projects .scripts .datepy{
+        width: 80%;
+        height: 96%;
     }
     .services div p{
         font-size: 19px;

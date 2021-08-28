@@ -7,6 +7,7 @@ ScrollReveal().reveal('.that-makes',{delay:1500,duration: 1500,reset: true});
 ScrollReveal().reveal('.what-i-learned',{delay:2000,duration: 1900,reset: true});
 
 ScrollReveal().reveal('.project1',{delay:1000,duration: 900,reset: true});
+ScrollReveal().reveal('.scripts',{delay:1000,duration: 1200,reset: true});
 
 ScrollReveal().reveal('.my-skills',{delay:900,duration: 900,reset: true});
 ScrollReveal().reveal('.pPy',{delay:400,duration: 700,reset: true});
