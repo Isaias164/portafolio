@@ -861,6 +861,10 @@ video{
     .container .upload a{
         font-size: 2.5em;
     }
+    #projects .scripts .datepy{
+        width: 90%;
+        height: 96%;
+    }
 }
 @keyframes nombreP {
     from {
