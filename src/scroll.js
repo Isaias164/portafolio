@@ -8,7 +8,7 @@ ScrollReveal().reveal('.that-makes',{delay:my_delay,duration: 1500,reset: true})
 ScrollReveal().reveal('.what-i-learned',{delay:my_delay,duration: 1900,reset: true});
 
 
-ScrollReveal().reveal('.project1',{delay:my_delay,duration: 900,reset: true});
+ScrollReveal().reveal('.project1',{delay:my_delay,duration: 1000,reset: true});
 ScrollReveal().reveal('.scripts',{delay:my_delay,duration: 1200,reset: true});
 
 ScrollReveal().reveal('.my-skills',{delay:my_delay,duration: 900,reset: true});
