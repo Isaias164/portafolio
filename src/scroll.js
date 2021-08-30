@@ -1,15 +1,5 @@
 var my_delay= 1000
 var duration1 = 1000
-
-ScrollReveal().reveal('.services,skills,studies-courses,contact',{delay:my_delay,duration: duration1,reset: true});
-ScrollReveal().reveal('.programation1',{delay:my_delay,duration: duration1,reset: true,easing: 'steps(13)'});
-ScrollReveal().reveal('.programation2',{delay:my_delay,duration: duration1,reset: true,easing: 'steps(13)'});
-ScrollReveal().reveal('.programation3,that-makes,what-i-learned',{delay:my_delay,duration: duration1,reset: true,easing: 'steps(13)'});
-ScrollReveal().reveal('.title',{delay:1000,duration: duration1,reset: true});
-ScrollReveal().reveal('.that-makes',{delay:my_delay,duration: duration1,reset: true});
-ScrollReveal().reveal('.what-i-learned',{delay:my_delay,duration: duration1,reset: true});
-
-
 ScrollReveal().reveal('.project1',{delay:my_delay,duration: duration1,reset: true});
 ScrollReveal().reveal('.scripts',{delay:my_delay,duration: duration1,reset: true});
 
