@@ -7,14 +7,14 @@ ScrollReveal().reveal('.that-makes',{delay:1500,duration: 1500,reset: true});
 ScrollReveal().reveal('.what-i-learned',{delay:2000,duration: 1900,reset: true});
 
 ScrollReveal().reveal('.project1',{delay:1000,duration: 900,reset: true});
-ScrollReveal().reveal('.scripts',{delay:1000,duration: 1200,reset: true});
+ScrollReveal().reveal('.scripts',{delay:1300,duration: 1200,reset: true});
 
 ScrollReveal().reveal('.my-skills',{delay:900,duration: 900,reset: true});
 ScrollReveal().reveal('.pPy',{delay:400,duration: 700,reset: true});
 ScrollReveal().reveal('.pDj',{delay:800,duration: 700,reset: true});
 ScrollReveal().reveal('.pSql',{delay:1200,duration: 200,reset: true});
 ScrollReveal().reveal('.pGit',{delay:1600,duration: 700,reset: true});
-ScrollReveal().reveal('.practices',{delay:2200,duration: 700,reset: true});
+ScrollReveal().reveal('.practices',{delay:2000,duration: 700,reset: true});
 
 ScrollReveal().reveal('.studies-terminated',{delay:1000,duration: 2000,reset: true});
 ScrollReveal().reveal('.studies-in-process',{delay:1400,duration: 2500,reset: true});
