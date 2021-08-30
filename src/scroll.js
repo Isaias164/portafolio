@@ -14,7 +14,7 @@ ScrollReveal().reveal('.pPy',{delay:400,duration: 700,reset: true});
 ScrollReveal().reveal('.pDj',{delay:800,duration: 700,reset: true});
 ScrollReveal().reveal('.pSql',{delay:1200,duration: 200,reset: true});
 ScrollReveal().reveal('.pGit',{delay:1600,duration: 700,reset: true});
-ScrollReveal().reveal('.practices',{delay:2000,duration: 700,reset: true});
+ScrollReveal().reveal('.practices',{delay:2200,duration: 700,reset: true});
 
 ScrollReveal().reveal('.studies-terminated',{delay:1000,duration: 2000,reset: true});
 ScrollReveal().reveal('.studies-in-process',{delay:1400,duration: 2500,reset: true});
