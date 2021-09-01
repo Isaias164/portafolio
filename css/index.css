@@ -138,35 +138,11 @@ video{
 
 #projects{
     margin-top: 4%;
-}
-#projects .scripts{
-    width: auto;
-    height: 200px;
     display: grid;
-
 }
-#projects .scripts .datepy{
-    width: 40%;
-    height: 96%;
-    margin: 0% auto;
-    background-color: rgb(17, 16, 16);
-    border-radius: 10px;
-}
-#projects .scripts .datepy a{
-    text-decoration: none;
-    font-size: 500%;
-    font-weight: 900;
-    color: yellow;
-}
-#projects .scripts .datepy p{
-    text-align: center;
-    width: 50%;
-    height: 50%;
-    margin: 0% auto;
-}
-/* #projects #container-projects{
+#projects #container-projects{
     display: grid;
-} */
+}
 #projects .project1{
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -205,6 +181,31 @@ video{
     font-size: 1.3em;
     color: yellow;
     font-weight: 500;
+}
+#projects .scripts{
+    width: auto;
+    height: 200px;
+    display: grid;
+
+}
+#projects .scripts .datepy{
+    width: 40%;
+    height: 96%;
+    margin: 0% auto;
+    background-color: rgb(17, 16, 16);
+    border-radius: 10px;
+}
+#projects .scripts .datepy a{
+    text-decoration: none;
+    font-size: 500%;
+    font-weight: 900;
+    color: yellow;
+}
+#projects .scripts .datepy p{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 0% auto;
 }
 #gloria-gym{
     font-size: 1.3em;
