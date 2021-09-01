@@ -164,9 +164,9 @@ video{
     height: 50%;
     margin: 0% auto;
 }
-#projects #container-projects{
+/* #projects #container-projects{
     display: grid;
-}
+} */
 #projects .project1{
     display: grid;
     grid-template-rows: repeat(3,1fr);
