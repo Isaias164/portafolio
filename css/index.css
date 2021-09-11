@@ -184,7 +184,7 @@ video{
 #projects .scripts{
     width: 100vw;
     height: 22.83vh;
-    /* border:1px solid #008000 ; */
+    /* border:1px solid #008000; */
     display: grid;
     grid-template-areas: "datepy pyfile";
     column-gap: 1vw;
@@ -204,15 +204,14 @@ video{
 }
 #projects .scripts .datepy p{
     font-size: 5vw;
-    width: 14vw;
+    width: 16vw;
     height: 7vw;
     margin: 0% auto;
+    text-align: center;
 }
 #projects .scripts .datepy a{
     text-decoration: none;
     color: yellow;
-    /* text-align: center; */
-    margin: 0% auto;
 }
 p #gloria-gym{
     font-size: 1.3em;
