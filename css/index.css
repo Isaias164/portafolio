@@ -182,28 +182,36 @@ video{
     font-weight: 500;
 }
 #projects .scripts{
-    width: auto;
-    height: 200px;
+    width: 100vw;
+    height: 22.83vh;
+    /* border:1px solid #008000 ; */
     display: grid;
-
+    grid-template-areas: "datepy pyfile";
+    column-gap: 1vw;
 }
 #projects .scripts .datepy{
-    width: 40%;
-    height: 96%;
-    margin: 0% auto;
+    grid-area: datepy;
+}
+#projects .scripts .pyfile{
+    grid-area: pyfile;
+}
+#projects .scripts .datepy,#projects .scripts .pyfile{
+    width: 50%;
+    height: 100%;
     background-color: rgb(17, 16, 16);
     border-radius: 10px;
+    margin: 0% auto;
+}
+#projects .scripts .datepy p{
+    font-size: 5vw;
+    width: 14vw;
+    height: 7vw;
+    margin: 0% auto;
 }
 #projects .scripts .datepy a{
     text-decoration: none;
-    font-size: 500%;
-    font-weight: 900;
     color: yellow;
-}
-#projects .scripts .datepy p{
-    text-align: center;
-    width: 50%;
-    height: 50%;
+    /* text-align: center; */
     margin: 0% auto;
 }
 p #gloria-gym{
@@ -530,13 +538,13 @@ p #gloria-gym{
         font-size: 1em;
         font-weight: 700;
     }
-    #projects .scripts .datepy{
+    /* #projects .scripts .datepy{
         width: 50%;
         height: 66%;
     }
     #projects .scripts .datepy a{
         font-size: 150%;
-    }
+    } */
     .skills > .my-skills{
         column-gap: 0.3em;
         row-gap: 2em;
@@ -732,13 +740,13 @@ p #gloria-gym{
         font-size: 22px;
         line-height: 110%;
     }
-    #projects .scripts .datepy{
+    /* #projects .scripts .datepy{
         width: 70%;
         height: 96%;
     }
     #projects .scripts .datepy a{
         font-size: 350%;
-    }
+    } */
     .studies-courses>div p{
         font-size: 20px;
     }
@@ -807,10 +815,10 @@ p #gloria-gym{
         font-size: 48px;
         font-weight: 900;
     }
-    #projects .scripts .datepy{
+    /* #projects .scripts .datepy{
         width: 80%;
         height: 96%;
-    }
+    } */
     .services div p{
         font-size: 19px;
     }
