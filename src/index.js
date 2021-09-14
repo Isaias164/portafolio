@@ -6,7 +6,7 @@ var img = $("#icon-menu");
 var exit = true;
 $(window).resize(function () { 
     let widthMyWindow = $(window).innerWidth();
-    if(widthMyWindow>=767){
+    if(widthMyWindow>=575){
         $(ul).css({"display":"grid","justifyContent":"center"});
     }
     else{
